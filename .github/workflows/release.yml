@@ -9,8 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: 
-      group: ubuntu-runners
+    runs-on: [ubuntu-22.04, ubuntu-20.04]
     permissions: write-all
     steps:
       - uses: actions/checkout@v3
